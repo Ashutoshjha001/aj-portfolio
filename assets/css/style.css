@@ -257,6 +257,11 @@ h6 {
     min-width: 300px;
 }
 
+#hero .profile {
+    float: left;
+    margin-left: 30%;
+}
+
 #hero h1 {
     margin: 0 0 10px 0;
     font-size: 64px;
