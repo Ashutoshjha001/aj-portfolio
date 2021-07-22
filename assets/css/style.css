@@ -620,6 +620,38 @@ section {
 # Additional Information
 --------------------------------------------------------------*/
 
+.add .resume-item ul {
+    padding-left: 20px;
+}
+
+.add .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+.add .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.add .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+
+.add .resume-item ul {
+    padding-left: 20px;
+}
+
+.add .resume-item ul li {
+    padding-bottom: 10px;
+}
+
 .add .resume-title {
     font-size: 40px;
     font-weight: 700;
