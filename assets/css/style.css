@@ -330,7 +330,7 @@ section {
 }
 
 .section-title h2::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     width: 50px;
@@ -436,7 +436,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 
 .skills .progress {
@@ -469,7 +469,7 @@ section {
 .skills .progress-bar {
     width: 1px;
     height: 10px;
-    transition: .9s;
+    transition: 0.9s;
     background-color: #149ddd;
 }
 
@@ -664,6 +664,10 @@ section {
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
+
+.interest {
+    background-color: #e5f2f8;
+}
 
 .interest .resume-title {
     font-size: 40px;
